@@ -1,23 +1,33 @@
 {
   "name": "exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/7DlZOvIm)\r # NodeJS - NoSQL MongoDB Assignment Exercise",
   "main": "dist/server.js",
-  "scripts": {
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon dist/server.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "dev": "tsx watch src/server.ts"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.10.0"
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.19.17",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
   },
   "dependencies": {
     "concurrently": "^9.1.0",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "mongoose": "^8.8.3"
-  }
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongoose": "^8.23.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/nodejs-mongodb-assignment-exercise-version-2-karlaleticiaavila.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/nodejs-mongodb-assignment-exercise-version-2-karlaleticiaavila/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/nodejs-mongodb-assignment-exercise-version-2-karlaleticiaavila#readme"
 }
